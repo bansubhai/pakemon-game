@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+
+    <style>
+
+        #mycanvas {
+            border: 5px solid orange;
+            /*background-image: url("images/background.jpg");*/
+        }
+
+        #scoreBoard{
+            position: absolute;
+            left: 700px;
+            top: 20px;
+
+            width: 100px;
+            height: 60px;
+
+            background-color: black;
+            color: white;
+
+            text-align: center;
+            overflow-x: auto;
+            /*vertical-align: middle;*/
+            }
+
+        #scoreBoard div{
+            display: inline-block;
+            overflow-x: auto;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+<body>
+
+<canvas id="mycanvas" width="800" height="600"></canvas>
+<div id="scoreBoard"><div id="score"></div></div>
+
+<script src="pokemon.js"></script>
+
+
+</body>
+</html>
